@@ -1,0 +1,37 @@
+{
+  "source": {
+    "spreadsheetId": "19ei-JBGdxqwWzOO0kILDXPO3obnvgxlY34AELLqh-cs",
+    "sheet": "ライブスケジュール",
+    "range": "A:D",
+    "transport": "Google Visualization CSV -> GitHub raw JSON",
+    "filterOwner": "spreadsheet",
+    "generatedAt": "2026-09-14T23:15:53.751580+00:00",
+    "sourceSha256": "e78f2510a1556855e500f78f5441242ad20bec6bd8301e3a3c9129fa20179960"
+  },
+  "events": [
+    {
+      "date": "2026-09-19",
+      "venue": "岡山PEPPERLAND",
+      "detail": "the Floppy-Pinkies \"Bet It\" Release Tour\n\n■Open / Start\n・16:30 / 17:00\n\n■Ticket\n¥2,400（+1drink）\n\n■Act\nTheeノリノリサーファー's\nthe Floppy Pinkies\nKick Ass\nJ-iN\n山陽座\nThe SPUNKY ROCKERS\nKETCHUP HEADS\nヒュー",
+      "flyerUrl": ""
+    },
+    {
+      "date": "2026-09-20",
+      "venue": "香川丸亀マイゴ",
+      "detail": "ヒミツノコウドウ presents.\n第五十回 異色獣\n\n■Open / Start\n・18:00 / 18:30\n\n■Ticket\n¥1,900（+1drink）\n\n■Act\nthe floppy pinkies\nTheeノリノリサーファー's\nNon  Gentlemen  Club  Band\n5cm ASSHOLES\nIMPALER\nヒミツノコウドウ",
+      "flyerUrl": ""
+    },
+    {
+      "date": "2026-09-21",
+      "venue": "尾道BxB",
+      "detail": "KAENHOSHA presents \"NOISY\" #01\nthe Floppy-Pinkies “Bet It” Release tour\n\n■Open / Start\n・TBA/TBA\n\n■Ticket\n・ADV：¥2,000（+1drink）\n・DOOR：¥2,500（+1drink）\n\n■Act\nthe Floppy-Pinkies\nGOOD PERV KID\n増田敏昭\nわに\none virtues\nKAENHOSHA\nand more",
+      "flyerUrl": ""
+    },
+    {
+      "date": "2026-09-22",
+      "venue": "立川HEART BEAT",
+      "detail": "立川HEART BEAT & EX REVERSION presents.\n立川第一デパートGIG vol.4 \n\n■Open / Start\n・15:45 / 16:00\n\n■Ticket\n・¥3,000（+1drink）\n\n■Act\nEX REVERSION\nSICKS (岐阜)\nTHE CRAWLERS\nTable\nDESTRUCTION4\nRIOT MISSILE \nThe Floppy-Pinkies\nUNEASY",
+      "flyerUrl": ""
+    }
+  ]
+}

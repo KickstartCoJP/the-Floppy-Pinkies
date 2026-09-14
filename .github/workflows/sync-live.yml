@@ -1,0 +1,34 @@
+name: Sync live schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,37 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-schedule-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync canonical Sheet view
+        run: python3 tools/sync_live.py
+      - name: Validate generated payload
+        run: python3 -m json.tool data/live.json >/dev/null
+      - name: Commit changed transport artifact
+        run: |
+          if git diff --quiet -- data/live.json; then
+            echo "No schedule change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live.json
+          git commit -m "Sync live schedule"
+          git push
