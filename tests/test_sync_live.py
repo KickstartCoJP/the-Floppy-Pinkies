@@ -21,7 +21,7 @@ class SyncLiveTests(unittest.TestCase):
         ]
         with tempfile.TemporaryDirectory() as directory, patch.object(sync_live, "FLYER_DIR", Path(directory)), patch.object(sync_live, "ROOT", Path(directory)), patch.object(sync_live, "curl", return_value=png) as fetch:
             mirrored = sync_live.mirror_future_flyers(events, today="2026-06-01")
-            self.assertEqual(mirrored, ["flyer_20261202.png"])
+            self.assertEqual(mirrored, {"2026-12-02": "flyer_20261202.png"})
             self.assertEqual(fetch.call_count, 1)
 
     def test_media_is_sorted_real_assets_and_never_nowprinting(self):

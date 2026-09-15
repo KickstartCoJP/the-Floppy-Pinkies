@@ -90,9 +90,9 @@ def image_extension(data: bytes) -> str:
     raise ValueError("flyer download is not a supported image")
 
 
-def mirror_future_flyers(events: list[dict[str, str]], today: str | None = None) -> list[str]:
+def mirror_future_flyers(events: list[dict[str, str]], today: str | None = None) -> dict[str, str]:
     today = today or datetime.now(ZoneInfo("Asia/Tokyo")).date().isoformat()
-    mirrored: list[str] = []
+    mirrored: dict[str, str] = {}
     FLYER_DIR.mkdir(parents=True, exist_ok=True)
     for event in events:
         if not event["flyerUrl"] or event["date"] < today:
@@ -102,12 +102,16 @@ def mirror_future_flyers(events: list[dict[str, str]], today: str | None = None)
         destination = FLYER_DIR / f"flyer_{event['date'].replace('-', '')}.{extension}"
         if not destination.exists() or destination.read_bytes() != data:
             destination.write_bytes(data)
-        mirrored.append(destination.relative_to(ROOT).as_posix())
+        mirrored[event["date"]] = destination.relative_to(ROOT).as_posix()
     return mirrored
 
 
-def media_payload(events: list[dict[str, str]]) -> dict[str, object]:
-    current = {event["date"] for event in events if event["flyerUrl"]}
+def media_payload(
+    events: list[dict[str, str]], current_paths: dict[str, str] | None = None
+) -> dict[str, object]:
+    current_dates = {event["date"] for event in events if event["flyerUrl"]}
+    use_explicit_paths = current_paths is not None
+    current_paths = current_paths or {}
     media: list[dict[str, object]] = []
     for path in sorted(FLYER_DIR.iterdir(), key=lambda item: item.name):
         match = FLYER_RE.match(path.name)
@@ -118,12 +122,13 @@ def media_payload(events: list[dict[str, str]]) -> dict[str, object]:
         raw_date = match.group(1)
         date = f"{raw_date[:4]}-{raw_date[4:6]}-{raw_date[6:]}"
         purposes = ["archive"]
-        if date in current:
+        asset_path = path.relative_to(ROOT).as_posix()
+        if current_paths.get(date) == asset_path or (not use_explicit_paths and date in current_dates):
             purposes.append("current_event_match")
         media.append(
             {
                 "date": date,
-                "path": path.relative_to(ROOT).as_posix(),
+                "path": asset_path,
                 "purposes": purposes,
                 "sha256": hashlib.sha256(content).hexdigest(),
             }
@@ -165,11 +170,11 @@ def main() -> None:
     }
     mirrored = mirror_future_flyers(events)
     write_json(LIVE_OUTPUT, live_payload)
-    media = media_payload(events)
+    media = media_payload(events, mirrored)
     write_json(MEDIA_OUTPUT, media)
     print(
         json.dumps(
-            {"events": len(events), "media": len(media["media"]), "mirrored": mirrored},
+            {"events": len(events), "media": len(media["media"]), "mirrored": list(mirrored.values())},
             ensure_ascii=False,
         )
     )
