@@ -1,0 +1,232 @@
+{
+  "source": {
+    "assetRoot": "img/flyer",
+    "selection": "real date-named flyer assets; current match requires same published event date"
+  },
+  "media": [
+    {
+      "date": "2025-05-04",
+      "path": "img/flyer/flyer_20250504.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "15423ebb8976eff283301d9553bd6f81ca34216fa23c44f79e2cfa1a746ef470"
+    },
+    {
+      "date": "2025-05-30",
+      "path": "img/flyer/flyer_20250530.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "5ab63fd99163060a7dc67de207cae4ea642edcfe6261b9082c24c3b18dec1558"
+    },
+    {
+      "date": "2025-06-09",
+      "path": "img/flyer/flyer_20250609.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "5fbc4f37e0a8283c375d9eaae726307c9a012adf20976ab89dbb956f003c898a"
+    },
+    {
+      "date": "2025-06-21",
+      "path": "img/flyer/flyer_20250621.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "2142c8e444cdac9d64b64510d7b5a878ea84ebf918354dca182bb3a1ed096512"
+    },
+    {
+      "date": "2025-07-05",
+      "path": "img/flyer/flyer_20250705.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "6ffe0c0fc2b6c1f0271cb5c3656df8b06d3e3a653499695c23b1bc8f996c3f4b"
+    },
+    {
+      "date": "2025-07-10",
+      "path": "img/flyer/flyer_20250710.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "62e0e6fdcbe016a9ebd1c9fbeaecb3d88abc92d5c8a87cc1de082f3a0609d49a"
+    },
+    {
+      "date": "2025-07-20",
+      "path": "img/flyer/flyer_20250720.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "78c095c6a65e92d8bcfd92a2717cce6a2005b4a528d3ecfbc610257d9a00bda7"
+    },
+    {
+      "date": "2025-08-08",
+      "path": "img/flyer/flyer_20250808.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "ab8542a72f4f23a50d8d3dd4ec32cee2472395b2f1b29e2e8d2c55ab8871592d"
+    },
+    {
+      "date": "2025-10-05",
+      "path": "img/flyer/flyer_20251005.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "458e61f8329cfc7e791be1094fd494ae98042ed9ac1e912c25d2f2670a371ab9"
+    },
+    {
+      "date": "2025-10-09",
+      "path": "img/flyer/flyer_20251009.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "d2f524ef7c7a0e57d4d0847f84c110a951f8ba721d91d4a01593873016f5f517"
+    },
+    {
+      "date": "2025-10-20",
+      "path": "img/flyer/flyer_20251020.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "549711effcede5c529836bebda9a51f1b8791c43719c17b83d6e043171c1ccc6"
+    },
+    {
+      "date": "2025-11-08",
+      "path": "img/flyer/flyer_20251108.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "c960a301e40b5c7702c908c80b22ddde980af053107b80b9d8c1cd54881191dd"
+    },
+    {
+      "date": "2025-11-16",
+      "path": "img/flyer/flyer_20251116.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "04e193a11f14baeab2e63631c91e1f36ec916a36026ca84d6b01114ebdaf0d00"
+    },
+    {
+      "date": "2025-11-23",
+      "path": "img/flyer/flyer_20251123.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "f978eeb4eef82ed9a3b11476e073033faad68ca2e67f674dba22aca0545d093b"
+    },
+    {
+      "date": "2025-12-06",
+      "path": "img/flyer/flyer_20251206.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "bb4dedb61b3b97660886390f730b7cadafebf5b4fd209cede7aeefc4a9353f00"
+    },
+    {
+      "date": "2025-12-17",
+      "path": "img/flyer/flyer_20251217.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "6b5648ac3f5a352ea560f1800f282f49867fbf24fbf2b74e7489be7935668b7d"
+    },
+    {
+      "date": "2025-12-28",
+      "path": "img/flyer/flyer_20251228.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "19a47be90c8e9c26599fddc39ea4077aa342918384ccb92b7b0929959bdd0ff8"
+    },
+    {
+      "date": "2025-12-30",
+      "path": "img/flyer/flyer_20251230.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "60bbe54ccc5895e0b73869056104653cdc1ce1d066618a96b7a53a2033109cef"
+    },
+    {
+      "date": "2026-01-04",
+      "path": "img/flyer/flyer_20260104.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "088ffc4788f9d6200e2d3ef8b8c0b7492f1518e8676257dbaa56c6747cb773ac"
+    },
+    {
+      "date": "2026-01-25",
+      "path": "img/flyer/flyer_20260125.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "acd5935c961c371eaee01d42aa355f6081ad9b3ed25c89a88cf3c1d2df389f95"
+    },
+    {
+      "date": "2026-02-21",
+      "path": "img/flyer/flyer_20260221.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "fb4443d220291ba8fca0891b17298328204ecff68f3533449b51ec36bc4741c1"
+    },
+    {
+      "date": "2026-03-08",
+      "path": "img/flyer/flyer_20260308.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "62f2f8218a731021ebb49f1ee73ad7300370bab0470e3ada23dff2b4918de991"
+    },
+    {
+      "date": "2026-04-12",
+      "path": "img/flyer/flyer_20260412.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "33ca77df46b5ac62cb93d0841af10a82f77ff58ff08f5f07b237867b168dfcb9"
+    },
+    {
+      "date": "2026-05-03",
+      "path": "img/flyer/flyer_20260503.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "0cf1eb66694bb6de49ba326b6170ed61e1046c5d6d8bd2fc842ac499b913c278"
+    },
+    {
+      "date": "2026-05-16",
+      "path": "img/flyer/flyer_20260516.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "d12186f7012b972cef08e5edcfecc1255ac895d1ff076f71a539a4bbe7ddc799"
+    },
+    {
+      "date": "2026-05-25",
+      "path": "img/flyer/flyer_20260525.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "74b2cf258b13df08dcd6fdb255f66aaf0751cc1de69d279c2f26c2c55612cfe4"
+    },
+    {
+      "date": "2026-06-21",
+      "path": "img/flyer/flyer_20260621.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "99bec54c8f87219779fba394e24172e9dcfad24e5b45f676563da2919a97cb17"
+    },
+    {
+      "date": "2026-06-28",
+      "path": "img/flyer/flyer_20260628.png",
+      "purposes": [
+        "archive"
+      ],
+      "sha256": "3e3f1eada7fcbb1b778d169e42aaa5291a50f6dd1beead665e01042186ea15df"
+    }
+  ]
+}
