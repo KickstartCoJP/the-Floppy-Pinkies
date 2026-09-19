@@ -5,16 +5,10 @@
     "range": "A:D",
     "transport": "Google Visualization CSV -> GitHub raw JSON",
     "filterOwner": "spreadsheet",
-    "generatedAt": "2026-09-14T23:15:53.751580+00:00",
-    "sourceSha256": "e78f2510a1556855e500f78f5441242ad20bec6bd8301e3a3c9129fa20179960"
+    "generatedAt": "2026-09-19T17:55:31.932181+00:00",
+    "sourceSha256": "179d1425b5b6dfceaadb07b3a30be8efe81774af8c26001b4c9c8854652e39f9"
   },
   "events": [
-    {
-      "date": "2026-09-19",
-      "venue": "岡山PEPPERLAND",
-      "detail": "the Floppy-Pinkies \"Bet It\" Release Tour\n\n■Open / Start\n・16:30 / 17:00\n\n■Ticket\n¥2,400（+1drink）\n\n■Act\nTheeノリノリサーファー's\nthe Floppy Pinkies\nKick Ass\nJ-iN\n山陽座\nThe SPUNKY ROCKERS\nKETCHUP HEADS\nヒュー",
-      "flyerUrl": ""
-    },
     {
       "date": "2026-09-20",
       "venue": "香川丸亀マイゴ",
