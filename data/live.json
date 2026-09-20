@@ -5,16 +5,10 @@
     "range": "A:D",
     "transport": "Google Visualization CSV -> GitHub raw JSON",
     "filterOwner": "spreadsheet",
-    "generatedAt": "2026-09-19T17:55:31.932181+00:00",
-    "sourceSha256": "179d1425b5b6dfceaadb07b3a30be8efe81774af8c26001b4c9c8854652e39f9"
+    "generatedAt": "2026-09-20T17:26:00.786053+00:00",
+    "sourceSha256": "d90ed36f71a8340197c5ebb3d931acb8d389c726e53fae0077c86e9f7553cea6"
   },
   "events": [
-    {
-      "date": "2026-09-20",
-      "venue": "香川丸亀マイゴ",
-      "detail": "ヒミツノコウドウ presents.\n第五十回 異色獣\n\n■Open / Start\n・18:00 / 18:30\n\n■Ticket\n¥1,900（+1drink）\n\n■Act\nthe floppy pinkies\nTheeノリノリサーファー's\nNon  Gentlemen  Club  Band\n5cm ASSHOLES\nIMPALER\nヒミツノコウドウ",
-      "flyerUrl": ""
-    },
     {
       "date": "2026-09-21",
       "venue": "尾道BxB",
