@@ -5,16 +5,10 @@
     "range": "A:D",
     "transport": "Google Visualization CSV -> GitHub raw JSON",
     "filterOwner": "spreadsheet",
-    "generatedAt": "2026-09-20T17:26:00.786053+00:00",
-    "sourceSha256": "d90ed36f71a8340197c5ebb3d931acb8d389c726e53fae0077c86e9f7553cea6"
+    "generatedAt": "2026-09-21T16:58:08.466408+00:00",
+    "sourceSha256": "78c10262f9c8bfaf3f11a4bd7c7b3663f694f99eac28e95bae25969825eb55b9"
   },
   "events": [
-    {
-      "date": "2026-09-21",
-      "venue": "尾道BxB",
-      "detail": "KAENHOSHA presents \"NOISY\" #01\nthe Floppy-Pinkies “Bet It” Release tour\n\n■Open / Start\n・TBA/TBA\n\n■Ticket\n・ADV：¥2,000（+1drink）\n・DOOR：¥2,500（+1drink）\n\n■Act\nthe Floppy-Pinkies\nGOOD PERV KID\n増田敏昭\nわに\none virtues\nKAENHOSHA\nand more",
-      "flyerUrl": ""
-    },
     {
       "date": "2026-09-22",
       "venue": "立川HEART BEAT",
